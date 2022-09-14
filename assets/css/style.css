@@ -1066,3 +1066,17 @@ section .container {
   color: var(--color-secondary);
   z-index: 999999;
 }
+.footer-text{
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 50px 0;
+  text-align: left;
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--color-nav);
+  z-index: 999999;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
