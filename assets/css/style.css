@@ -211,6 +211,21 @@ svg {
   background: var(--color-green);
 }
 
+#header .update-text{
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 50px 0px;
+  text-align: left;
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--color-nav);
+  z-index: 999999;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
@@ -239,7 +254,8 @@ svg {
   background: var(--color-header-top);
 }
 
-#header.header-top .social-links,
+#header.header-top .social-links, 
+#header.header-top .update-text,
 #header.header-top h2 {
   display: none;
 }
@@ -1066,17 +1082,4 @@ section .container {
   color: var(--color-secondary);
   z-index: 999999;
 }
-.footer-text{
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 50px 0;
-  text-align: left;
-  font-size: 2rem;
-  font-style: italic;
-  color: var(--color-nav);
-  z-index: 999999;
-  font-size: 13px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-}
+
